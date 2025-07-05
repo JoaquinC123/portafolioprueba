@@ -53,33 +53,19 @@ nav .links a:hover {
 
 .hero {
   display: flex;
-  flex-direction: none;
-  align-items: start;
-  text-align: start;
-  padding: 6rem 4rem;
-  left: 6rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
 }
 
 .hero-img {
-  max-width: 650px;
-  display: flex;
-  flex-direction: end;
-  align-items: end;
-  position: relative;
-  top: 50%;
-left: 50%;
+  max-width: 300px;
+  border-radius: 50%;
 }
 
 .hero-text {
   margin-top: 2rem;
-   display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: start;
-  text-align: start;
-  padding: 6rem 4rem;
-  left: -50%;
-
 }
 
 .dise {
@@ -87,29 +73,13 @@ left: 50%;
 }
 
 .j, .c {
-  font-size: 5rem;
+  font-size: 2.5rem;
   font-weight: bold;
-}
-
-.j{
-  display: flex;
-  position: relative;
-  top: -2rem;
-}
-
-.c{
-  display: flex;
-  position: relative;
-  top: -6rem;
 }
 
 .bio {
   max-width: 600px;
   margin: 1rem auto;
-  display: flex;
-  position: relative;
-  top: -7rem;
-  left: 1rem;
 }
 
 .sobremi-section {
@@ -121,32 +91,8 @@ left: 50%;
 }
 
 .sobremi-img {
-  max-width: 380px;
+  max-width: 300px;
   border-radius: 10px;
-}
-.sobre{
-display: flex;
-position: relative;
-font-size: 70px;
-top: -10px;
-left: -10%;
-
-
-}
-.sobre2{
-display: flex;
-position: relative;
-font-size: 70px;
-top: -65px;
-left: -10%;
-
-}
-
-.sobre3{
-  display: flex;
-position: relative;
-top: -2rem;
-left: 15%;
 }
 
 .sobremi-text {
@@ -168,11 +114,10 @@ left: 15%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
-  left: 3rem;
 }
 
 .galeria img {
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
