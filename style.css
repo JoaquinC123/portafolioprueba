@@ -282,125 +282,31 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
+  .navbar, .links, .hero, .hero-text, .sobremi-section, .sobremi-text, .contacto, .contacto-texto, .contact-form, footer {
+    width: 100%;
   }
 
   nav.navbar {
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    gap: 10px;
     padding: 1rem;
   }
 
   .links {
     flex-direction: column;
-    gap: 8px;
-    align-items: center;
-  }
-
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 2rem 1rem;
-  }
-
-  .hero-img {
-    width: 180px;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .hero-text {
-    width: 100%;
-    padding: 0 1rem;
-  }
-
-  .bio {
-    font-size: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-  }
-
-  .sobremi-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 2rem 1rem;
     gap: 1rem;
+    text-align: center;
   }
 
+  .hero-img,
   .sobremi-img {
-    width: 200px;
-    height: auto;
-  }
-
-  .sobremi-text {
     width: 100%;
-    padding: 0 1rem;
+    max-width: 300px;
+    height: auto;
   }
 
   .galeria {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-  }
-
-  .galeria img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .contacto {
-    padding: 2rem 1rem;
-    text-align: center;
-  }
-
-  .contacto-texto {
     padding: 0 1rem;
-  }
-
-  .contact-form {
-    width: 100%;
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-  }
-
-  .footer-top {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .footer-bottom {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .footer-bottom ul {
-    min-width: 120px;
-  }
-
-  .copy {
-    padding: 1rem;
-    font-size: 0.8rem;
   }
 }
 
