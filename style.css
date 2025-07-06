@@ -335,8 +335,16 @@ footer {
     height: auto;
   }
 
-  .sobre, .sobre2, .sobre3 {
-    font-size: 2rem;
+  .sobre, .sobre2 {
+    font-size: 4rem;
+    top: 0;
+    left: 0;
+    position: static;
+    text-align: center;
+    justify-content: center;
+  }
+  .sobre3{
+     font-size: 1rem;
     top: 0;
     left: 0;
     position: static;
